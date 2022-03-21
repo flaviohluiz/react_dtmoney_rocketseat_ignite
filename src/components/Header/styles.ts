@@ -8,7 +8,7 @@ export const Content = styled.div`
     max-width: 1120px;
     margin: 0 auto;
 
-    padding: 2rem 1rem 12rem; //1 rem - tamanho do font size do root
+    padding: 2rem 1rem 8rem; //1 rem - tamanho do font size do root
     display: flex;
     align-items: center; // itens alinhado ao meio
     justify-content: space-between; // espaço entre a logo e o botão
@@ -28,6 +28,11 @@ export const Content = styled.div`
             filter: brightness(0.9)
         }
 
+    }
+
+    h1 {
+        color: #fff;
+        font-size: 2.5rem;
     }
 
 `;
